@@ -1,23 +1,30 @@
 body {
-  background-color: #cce6ff
-  font-family: Arial,  Sans-serif;
-  color:#9933ff
+    background-color: #cce6ff; /* FIX: Tambahkan titik koma (;) */
+    font-family: Arial, Sans-serif;
+    color:#9933ff
 }
 
-.Kartu-profil {
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+/* FIX: Ganti .Kartu-profil menjadi .kartu-profil */
+.kartu-profil { 
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center; /* Digabung di sini biar rapi */
 }
 
-.Kartu-profil img {
-   width: 150px;
-  border-radius:50%
+/* FIX: Ganti .Kartu-profil img menjadi .kartu-profil img */
+.kartu-profil img { 
+    width: 150px;
+    border-radius:50%;
+    margin-bottom: 10px; /* Opsional: Tambahin biar ada jarak ke H1 */
 }
 
+/* Bagian .Kartu-profil yang cuma berisi text-align digabung ke selector utama di atas */
+/* HAPUS:
 .Kartu-profil{
   text-align: center; 
-}
+} 
+*/
